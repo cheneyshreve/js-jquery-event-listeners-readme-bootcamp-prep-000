@@ -9,7 +9,7 @@ function getIt() {
 function frameIt(){
 // bind the load event that adds the class tasty to the image to add a red frame to the image
    $("img").click(function() {
-        $(this).css('border', "solid 2px red");
+        $(img.tasty).css('border', "solid 2px red");
     });
 }
 
